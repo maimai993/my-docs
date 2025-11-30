@@ -1,0 +1,191 @@
+<template><div><h1 id="伪造消息" tabindex="-1"><a class="header-anchor" href="#伪造消息"><span>伪造消息</span></a></h1>
+<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
+<p><strong>功能描述</strong>: 伪造任意用户的消息，形成合并转发消息，用于恶搞群友或好友</p>
+<p><strong>插件名称</strong>: mai-fake-message</p>
+<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
+<Mermaid code="eJx1kstOwkAUhvc8xYn7anwBEzRhg0BqwqpxMUqVqrSEFnWp8RKiQVCJMWqQm4JggBUYJPIupjMtb+HQlktbPIt2Zs43/5zbzoF0tB1FCQXWNzxALcxpuRpJdTeNnfGRk1u7CRSPwrogJo+NI9uxFziWxc0SvaU1WubFsbEs9U2PeDHicQsEpQi/JwM3+i/SxUZSVIQYb1ea0KsURPFtpJCXNL4q2qmRBS2/3WN72ia4BpxfEuSoQIqXJN9xC/otv9vjDXEoguIKn2Akkd+SHG+OzBfgYkhgdtA+z8R4WUa7jsRGgTnXk2DDwDArtIrGhmXpDhZ+bwtAOily2lpSe9fqd2fBgIIGE7SQIoREflVS4HB5GaczerNpUv5pX/0WWgIT0Ktlks+amDdkIN6QxZTBfErtF4Ynd7NSY5UK6O0zOjuziZLM3SQ8X8DAfQGLfwP9poszD+a4qYMizWee7jvogxx+zrs5p2IVtNwrSWXVfn14UjArNE+xBurXE50cXDnXspfz8/0AfJ/GvRxun+rli3kq9X8KbLbB1ouGJTYbkrOln0Aef7RKzx182PMHobA84Q=="></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h3 id="基本语法" tabindex="-1"><a class="header-anchor" href="#基本语法"><span>基本语法</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>[QQ号]说[内容]|[QQ号]说[内容]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QQ号</td>
+<td>数字</td>
+<td>是</td>
+<td>要伪造消息的用户QQ号</td>
+<td>2237886846</td>
+</tr>
+<tr>
+<td>内容</td>
+<td>文本</td>
+<td>是</td>
+<td>要伪造的消息内容</td>
+<td>你好</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分隔符说明" tabindex="-1"><a class="header-anchor" href="#分隔符说明"><span>分隔符说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>分隔符</th>
+<th>作用</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>`</td>
+<td>`</td>
+<td>用户分隔符</td>
+<td>`</td>
+</tr>
+<tr>
+<td>空格</td>
+<td>消息分隔符</td>
+<td>空格</td>
+<td>用于分隔同一用户的多条消息</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<h3 id="伪造单个用户消息" tabindex="-1"><a class="header-anchor" href="#伪造单个用户消息"><span>伪造单个用户消息</span></a></h3>
+<h4 id="伪造用户2237886846发送消息" tabindex="-1"><a class="header-anchor" href="#伪造用户2237886846发送消息"><span>伪造用户2237886846发送消息</span></a></h4>
+<chat-panel>
+<chat-message nickname="用户" type="user">2237886846说你好</chat-message>
+<chat-message nickname="bot" type="bot">
+正在伪造消息……
+</chat-message>
+<chat-message nickname="bot" type="bot">
+<MergeForward :messages="[
+{ nickname: '麦麦', type: 'user', content: '你好' },
+{ nickname: 'bot', type: 'bot', content: '⚠️ 伪造消息警告 ⚠️\n时间: 2025/11/16 19:33:16\n此消息为伪造消息，请勿轻信！\n实际发送者: 2237886846' }
+]" />
+</chat-message>
+</chat-panel>
+<h3 id="伪造多个用户消息" tabindex="-1"><a class="header-anchor" href="#伪造多个用户消息"><span>伪造多个用户消息</span></a></h3>
+<h4 id="伪造多个用户对话" tabindex="-1"><a class="header-anchor" href="#伪造多个用户对话"><span>伪造多个用户对话</span></a></h4>
+<chat-panel>
+<chat-message nickname="用户" type="user">2237886846说你好|3929982192说早上好</chat-message>
+<chat-message nickname="bot" type="bot">
+正在伪造消息……
+</chat-message>
+<chat-message nickname="bot" type="bot">
+<MergeForward :messages="[
+{ nickname: '麦麦', type: 'user', content: '你好' },
+{ nickname: 'bot', type: 'bot', content: '早上好' },
+{ nickname: 'bot', type: 'bot', content: '⚠️ 伪造消息警告 ⚠️\n时间: 2025/11/16 19:33:16\n此消息为伪造消息，请勿轻信！\n实际发送者: 2237886846' }
+]" />
+</chat-message>
+</chat-panel>
+<h3 id="伪造同一用户多条消息" tabindex="-1"><a class="header-anchor" href="#伪造同一用户多条消息"><span>伪造同一用户多条消息</span></a></h3>
+<h4 id="伪造用户发送多条消息" tabindex="-1"><a class="header-anchor" href="#伪造用户发送多条消息"><span>伪造用户发送多条消息</span></a></h4>
+<chat-panel>
+<chat-message nickname="用户" type="user">2237886846说你好 早上好 今天天气不错</chat-message>
+<chat-message nickname="bot" type="bot">
+正在伪造消息……
+</chat-message>
+<chat-message nickname="bot" type="bot">
+<MergeForward :messages="[
+{ nickname: '麦麦', type: 'user', content: '你好' },
+{ nickname: '麦麦', type: 'user', content: '早上好' },
+{ nickname: '麦麦', type: 'user', content: '今天天气不错' },
+{ nickname: 'bot', type: 'bot', content: '⚠️ 伪造消息警告 ⚠️\n时间: 2025/11/16 19:33:16\n此消息为伪造消息，请勿轻信！\n实际发送者: 2237886846' }
+]" />
+</chat-message>
+</chat-panel>
+<h3 id="复杂场景示例" tabindex="-1"><a class="header-anchor" href="#复杂场景示例"><span>复杂场景示例</span></a></h3>
+<h4 id="伪造多人对话场景" tabindex="-1"><a class="header-anchor" href="#伪造多人对话场景"><span>伪造多人对话场景</span></a></h4>
+<chat-panel>
+<chat-message nickname="用户" type="user">2237886846说大家好 我是新来的|3929982192说欢迎欢迎|10001说新人爆照</chat-message>
+<chat-message nickname="bot" type="bot">
+正在伪造消息……
+</chat-message>
+<chat-message nickname="bot" type="bot">
+<MergeForward :messages="[
+{ nickname: '麦麦', type: 'user', content: '大家好' },
+{ nickname: '麦麦', type: 'user', content: '我是新来的' },
+{ nickname: 'bot', type: 'bot', content: '欢迎欢迎' },
+{ nickname: '马化腾', type: '马化腾', content: '新人爆照' },
+{ nickname: 'bot', type: 'bot', content: '⚠️ 伪造消息警告 ⚠️\n时间: 2025/11/16 19:33:16\n此消息为伪造消息，请勿轻信！\n实际发送者: 2237886846' }
+]" />
+</chat-message>
+</chat-panel>
+<h2 id="技术特性" tabindex="-1"><a class="header-anchor" href="#技术特性"><span>技术特性</span></a></h2>
+<h3 id="消息处理" tabindex="-1"><a class="header-anchor" href="#消息处理"><span>消息处理</span></a></h3>
+<ul>
+<li><strong>自动识别</strong>: 自动识别符合格式的伪造消息请求</li>
+<li><strong>用户信息获取</strong>: 自动获取目标用户的昵称信息</li>
+<li><strong>合并转发</strong>: 使用合并转发消息格式发送伪造消息</li>
+<li><strong>降级处理</strong>: 合并转发失败时自动降级为逐条发送</li>
+</ul>
+<h3 id="安全特性" tabindex="-1"><a class="header-anchor" href="#安全特性"><span>安全特性</span></a></h3>
+<ul>
+<li><strong>水印警告</strong>: 默认在伪造消息中添加警告信息，包含时间戳和实际发送者</li>
+<li><strong>用户验证</strong>: 验证目标用户是否存在</li>
+<li><strong>错误处理</strong>: 完善的错误处理和用户提示</li>
+</ul>
+<h3 id="格式支持" tabindex="-1"><a class="header-anchor" href="#格式支持"><span>格式支持</span></a></h3>
+<ul>
+<li><strong>QQ号格式</strong>: 支持6-10位数字的QQ号</li>
+<li><strong>内容格式</strong>: 支持任意文本内容</li>
+<li><strong>分隔符</strong>: 支持自定义用户和消息分隔符</li>
+</ul>
+<h2 id="配置参数" tabindex="-1"><a class="header-anchor" href="#配置参数"><span>配置参数</span></a></h2>
+<p>插件支持以下配置选项：</p>
+<table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>userSplit</td>
+<td>string</td>
+<td>`</td>
+<td>`</td>
+</tr>
+<tr>
+<td>messageSplit</td>
+<td>string</td>
+<td>空格</td>
+<td>同一用户多条消息分隔符</td>
+</tr>
+<tr>
+<td>blockedUsers</td>
+<td>string[]</td>
+<td>[]</td>
+<td>被屏蔽的QQ号列表</td>
+</tr>
+</tbody>
+</table>
+<h2 id="注意事项" tabindex="-1"><a class="header-anchor" href="#注意事项"><span>注意事项</span></a></h2>
+<ol>
+<li><strong>用户真实性</strong>: 伪造消息的QQ号必须是真实存在的用户</li>
+<li><strong>权限限制</strong>: 无法伪造被屏蔽用户的消息</li>
+<li><strong>消息格式</strong>: 必须严格按照指定格式发送</li>
+<li><strong>水印功能</strong>: 默认开启水印警告，无法关闭</li>
+<li><strong>网络依赖</strong>: 需要稳定的网络连接来获取用户信息</li>
+</ol>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>伪造消息功能主要用于娱乐目的，请勿用于恶意用途。所有伪造消息都会自动添加警告信息，提醒接收者注意消息真实性。</p>
+</div>
+</div></template>
+
+

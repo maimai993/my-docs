@@ -1,0 +1,99 @@
+<template><div><h1 id="搜图来源" tabindex="-1"><a class="header-anchor" href="#搜图来源"><span>搜图来源</span></a></h1>
+<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
+<p><strong>指令名称</strong>: 搜图</p>
+<p><strong>功能描述</strong>: 根据图片搜索来源信息，识别图片出处和相关信息</p>
+<p><strong>插件名称</strong>: hero-search</p>
+<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
+<Mermaid code="eJx9kstOwkAUhvc8xYl7NO6NSdUFBANUwqpxUaBajLakFHXp/RoiKjFeCJGLipeAJgYNGH0Xw0zrWzh0BqRSPYu2c87X/585Z2bm1aWoLGo6TE65gERYMLIVvPMyba2sRzIVmdXEhAyTcSW1bKVsaQ4EnkfVIvnLuK/RHzvB86T2k5KUmKtfwK/GpLkkCO33IPmYSil6fEGyK3XpMQKKiaio41wa7RXsVDv8rG6v2KxtguMg+NR4Uo7jwhbO1/sFfazeX+ECghgTE7qkuVVFiqi/PNvhCQmypKnupCRqUbl/T/+3ZgIEVD75Wq9wQa/TeUlaQBfvxu42zuSM5+JIRBt1QDtGXZMwuN2jZDrWgufJCgY+Dy8B13fwam2o1dhvNesDFuS3GD9DChBQpDFVh8XhYZQ+MKtVSvl+7ouPoUWggHlTwvkMxbiAhXABxpSAWrXeLr9WjnqlOiplMB/XyZ3saSI+OOruzhOyaE+I4Vdg1l7w01q3a8w36KXGQS8Dr8H8yKKLPO2b0TzG+Zyz5A0jjeYZvQdO26xA6/Wc9ByVN4zMlvNhbwEdp1Ejix5XzdKmk8rdH92lM7AN4p6J0YlR7Pc8HwCfvhvlRu/pwq5vjJ9Tzg=="></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h3 id="基本语法" tabindex="-1"><a class="header-anchor" href="#基本语法"><span>基本语法</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>搜图</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>图片</td>
+<td>图片</td>
+<td>是</td>
+<td>要搜索来源的图片</td>
+<td><a href="./%E6%90%9C%E5%9B%BE%E6%9D%A5%E6%BA%90_%E7%A4%BA%E8%8C%83.jpg">图片</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<h3 id="基本搜索" tabindex="-1"><a class="header-anchor" href="#基本搜索"><span>基本搜索</span></a></h3>
+<h4 id="搜索图片来源" tabindex="-1"><a class="header-anchor" href="#搜索图片来源"><span>搜索图片来源</span></a></h4>
+<chat-panel>
+<chat-message nickname="用户" type="user">
+搜图
+<figure><img src="@source/使用指南/实用工具/搜图来源_示范.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</chat-message>
+<chat-message nickname="bot" type="bot">
+<MergeForward :messages="[
+{ nickname: 'bot', type: 'bot', content: '[图片] 链接：https://e621.net/post/show/5609746 \n 作者：未知 \n 网站：e621 \n 相似度：88.5% \n 索引：29' }
+]" />
+</chat-message>
+</chat-panel>
+<h2 id="技术特性" tabindex="-1"><a class="header-anchor" href="#技术特性"><span>技术特性</span></a></h2>
+<h3 id="搜索能力" tabindex="-1"><a class="header-anchor" href="#搜索能力"><span>搜索能力</span></a></h3>
+<ul>
+<li><strong>相似度匹配</strong>: 提供相似度评分，帮助判断匹配准确性</li>
+<li><strong>多结果返回</strong>: 可能返回多个可能的匹配结果</li>
+</ul>
+<h3 id="信息提取" tabindex="-1"><a class="header-anchor" href="#信息提取"><span>信息提取</span></a></h3>
+<ul>
+<li><strong>来源链接</strong>: 提供图片的原始链接</li>
+<li><strong>作者信息</strong>: 识别图片作者（如果可获取）</li>
+<li><strong>网站来源</strong>: 标明图片来源网站</li>
+<li><strong>相似度</strong>: 显示匹配的相似度百分比</li>
+</ul>
+<h3 id="错误处理" tabindex="-1"><a class="header-anchor" href="#错误处理"><span>错误处理</span></a></h3>
+<ul>
+<li><strong>图片格式</strong>: 支持常见图片格式</li>
+<li><strong>网络异常</strong>: 当API请求失败时提示</li>
+<li><strong>无结果</strong>: 当搜索无结果时返回友好提示</li>
+<li><strong>图片过大</strong>: 当图片超过限制大小时提示</li>
+</ul>
+<h2 id="配置参数" tabindex="-1"><a class="header-anchor" href="#配置参数"><span>配置参数</span></a></h2>
+<p>插件支持以下配置选项：</p>
+<table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API端点</td>
+<td>string</td>
+<td>自动选择</td>
+<td>图片搜索API端点</td>
+</tr>
+</tbody>
+</table>
+<h2 id="注意事项" tabindex="-1"><a class="header-anchor" href="#注意事项"><span>注意事项</span></a></h2>
+<ol>
+<li><strong>准确性限制</strong>: 搜索结果可能不准确，仅供参考</li>
+<li><strong>网络依赖</strong>: 需要稳定的网络连接来访问图片搜索API</li>
+<li><strong>图片质量</strong>: 图片质量影响搜索结果的准确性</li>
+<li><strong>版权问题</strong>: 搜索结果可能涉及版权内容，请谨慎使用</li>
+<li><strong>内容限制</strong>: 某些图片可能无法找到来源信息</li>
+</ol>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>搜图来源功能基于外部图片搜索API实现，搜索结果仅供参考，可能存在不准确的情况。</p>
+</div>
+</div></template>
+
+

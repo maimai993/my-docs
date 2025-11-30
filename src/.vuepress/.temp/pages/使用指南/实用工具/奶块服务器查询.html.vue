@@ -1,0 +1,103 @@
+<template><div><h1 id="奶块服务器查询" tabindex="-1"><a class="header-anchor" href="#奶块服务器查询"><span>奶块服务器查询</span></a></h1>
+<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
+<p><strong>指令名称</strong>: 服务器查询</p>
+<p><strong>功能描述</strong>: 查询奶块游戏服务器状态，显示各服务器在线人数和运行状态</p>
+<p><strong>插件名称</strong>: smmcat-naikuaiapi</p>
+<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
+<Mermaid code="eJx1ks9y0kAcx+88xW96R6cv4Az1mE4gnckp42FbVolKkoFEPZZRGaaKYIsdtQ4tBQWtAuOBdtC279LJbtK36GY3QBPSPSS7+/v8vr9/+/i5+XKrgEo2rG+kgC1V81oDWjt9xE/8U3Y2n5SQVYB13XBe8avIdQY0RSHDY+blnYyE42wpCrMtrrCRTy0LyGYePy2DFvzvsc2GY9h6EUeV5vQaA5G1hWz6rU52OlEqWHJoj1oioSOCD0GTTL1c0GmnStuTZUEptC9bMlkN5ZFl41LaNPCmGYvJs5G0crHI0kkbSH/mIB1ZCUI5VbMcy8I2xqXlvOP7eS0qpNMPWJP5QVHYCVauPh4BndRoZXTfnb5z/01WOCRzRg6RDmQNvGba8GJ1ldQb/nAoKGkxdilEj0EAfr9L202BZbIcyWRDpgsilPv/6Hp797bUTKUH/vh18LQau4uUBCLPmO/gfzgljX0xWPJlQD+NaT3MLA7/APf8kgnO20bP/tLDPQHnVA7ngv4EcB+81iGtNUlj5Per5P0+ObjwO4Nk5QH4ly1y0J6n4e1M6HaFuSQV9hPcs68B13vjNavJ7fkFZK9Opi0yrvjdt0kqJ3fMQ0wtMrrfoZiYscDiL+AP0M8XXm8aK0HAauoG0I9dSA=="></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h3 id="基本语法" tabindex="-1"><a class="header-anchor" href="#基本语法"><span>基本语法</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>服务器查询</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无参数</td>
+<td>-</td>
+<td>-</td>
+<td>直接查询所有服务器状态</td>
+<td>奶块/服务器查询</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<h3 id="查询服务器状态" tabindex="-1"><a class="header-anchor" href="#查询服务器状态"><span>查询服务器状态</span></a></h3>
+<chat-panel>
+<chat-message nickname="用户" type="user">奶块/服务器查询</chat-message>
+<chat-message nickname="bot" type="bot">
+<figure><img src="@source/使用指南/实用工具/奶块服务器查询.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</chat-message>
+</chat-panel>
+<h2 id="技术特性" tabindex="-1"><a class="header-anchor" href="#技术特性"><span>技术特性</span></a></h2>
+<h3 id="数据来源" tabindex="-1"><a class="header-anchor" href="#数据来源"><span>数据来源</span></a></h3>
+<ul>
+<li><strong>API接口</strong>: 通过虎牙next平台获取服务器列表数据</li>
+<li><strong>数据代理</strong>: 使用transfer-service进行跨域请求处理</li>
+<li><strong>实时更新</strong>: 每次查询都会获取最新的服务器状态</li>
+</ul>
+<h3 id="可视化展示" tabindex="-1"><a class="header-anchor" href="#可视化展示"><span>可视化展示</span></a></h3>
+<ul>
+<li><strong>进度条显示</strong>: 使用非线性缩放算法显示服务器负载情况</li>
+<li><strong>状态标识</strong>: 清晰标注服务器运行状态（运行中/维护中）</li>
+<li><strong>在线人数</strong>: 显示精确的在线人数统计</li>
+<li><strong>响应式设计</strong>: 适配不同屏幕尺寸的显示效果</li>
+</ul>
+<h3 id="数据处理" tabindex="-1"><a class="header-anchor" href="#数据处理"><span>数据处理</span></a></h3>
+<ul>
+<li><strong>异常值过滤</strong>: 自动过滤无效的在线人数数据</li>
+<li><strong>数值限制</strong>: 限制最大显示在线人数为100,000</li>
+<li><strong>非线性缩放</strong>: 使用指数函数进行数据可视化优化</li>
+</ul>
+<h2 id="错误处理" tabindex="-1"><a class="header-anchor" href="#错误处理"><span>错误处理</span></a></h2>
+<h3 id="网络错误" tabindex="-1"><a class="header-anchor" href="#网络错误"><span>网络错误</span></a></h3>
+<ul>
+<li><strong>API不可达</strong>: 当服务器数据接口无法访问时提示</li>
+<li><strong>数据解析失败</strong>: 当返回数据格式异常时提示</li>
+</ul>
+<h3 id="渲染错误" tabindex="-1"><a class="header-anchor" href="#渲染错误"><span>渲染错误</span></a></h3>
+<ul>
+<li><strong>模板加载失败</strong>: 当HTML模板文件无法读取时提示</li>
+<li><strong>截图生成失败</strong>: 当puppeteer渲染过程中出现错误时提示</li>
+</ul>
+<h2 id="配置参数" tabindex="-1"><a class="header-anchor" href="#配置参数"><span>配置参数</span></a></h2>
+<p>插件支持以下配置选项：</p>
+<table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无配置项</td>
+<td>-</td>
+<td>-</td>
+<td>当前版本插件无需额外配置</td>
+</tr>
+</tbody>
+</table>
+<h2 id="注意事项" tabindex="-1"><a class="header-anchor" href="#注意事项"><span>注意事项</span></a></h2>
+<ol>
+<li><strong>数据延迟</strong>: 服务器状态数据可能存在一定的延迟</li>
+<li><strong>网络依赖</strong>: 需要稳定的网络连接来获取服务器数据</li>
+<li><strong>API限制</strong>: 依赖第三方API服务，可能受服务稳定性影响</li>
+<li><strong>显示限制</strong>: 单次查询最多显示100,000在线人数</li>
+</ol>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>奶块服务器查询功能能够实时监控游戏服务器状态，帮助玩家了解各服务器的负载情况和运行状态，方便选择合适的服务器进行游戏。</p>
+</div>
+</div></template>
+
+

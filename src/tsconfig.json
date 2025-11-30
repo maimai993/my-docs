@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "types": [
+      "vue"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.vue",
+    "shims-vue.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vuepress/dist",
+    ".vuepress/.temp"
+  ]
+}
