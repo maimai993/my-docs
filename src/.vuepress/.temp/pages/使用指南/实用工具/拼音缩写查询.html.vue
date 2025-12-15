@@ -1,6 +1,7 @@
 <template><div><h1 id="拼音缩写查询" tabindex="-1"><a class="header-anchor" href="#拼音缩写查询"><span>拼音缩写查询</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: abbr</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-abbreviation" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-abbreviation" alt="" loading="lazy"></a>  <a href="https://github.com/koishijs/koishi-plugin-abbreviation" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: abbr</p>
 <p><strong>功能描述</strong>: 中文缩写词搜索，基于「能不能好好说话？」API</p>
 <p><strong>插件名称</strong>: abbreviation</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

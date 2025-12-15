@@ -1,6 +1,7 @@
 <template><div><h1 id="搜图" tabindex="-1"><a class="header-anchor" href="#搜图"><span>搜图</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: [平台]搜图</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-baidu-image-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/npm-0.3.3-ec7738?style=flat" alt="npm" loading="lazy"></a> <a href="https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/baidu-image-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: [平台]搜图</p>
 <p><strong>功能描述</strong>: 根据文字搜索一张图片，支持多个搜索平台</p>
 <p><strong>插件名称</strong>: baidu-image-search</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

@@ -1,6 +1,7 @@
 <template><div><h1 id="奶块服务器查询" tabindex="-1"><a class="header-anchor" href="#奶块服务器查询"><span>奶块服务器查询</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: 服务器查询</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-smmcat-naikuaiapi" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-smmcat-naikuaiapi" alt="" loading="lazy"></a> <a href="https://qm.qq.com/cgi-bin/qm/qr?authKey=Yjnj2%2BAkbHNYLq%2BwD1ral1WpQENTWPFLd%2ForvCuz%2BI5kZdzR2ZXhoqztzbLVWm7Z&amp;k=43TPCNxj4F-Q8tTOks02iyl78YCE_UW3&amp;noverify=0" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/QQ-415681705-1ebafc?style=flat&amp;logo=QQ" alt="QQ" loading="lazy"></a><br>
+<strong>指令名称</strong>: 服务器查询</p>
 <p><strong>功能描述</strong>: 查询奶块游戏服务器状态，显示各服务器在线人数和运行状态</p>
 <p><strong>插件名称</strong>: smmcat-naikuaiapi</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
