@@ -1,6 +1,7 @@
 <template><div><h1 id="成语查询" tabindex="-1"><a class="header-anchor" href="#成语查询"><span>成语查询</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: 成语查询</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-idiom-dictionary" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-idiom-dictionary" alt="" loading="lazy"></a> <a href="https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/idiom-dictionary" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: 成语查询</p>
 <p><strong>功能描述</strong>: 查询成语含义、出处、用法和示例，支持精确查询和模糊匹配</p>
 <p><strong>插件名称</strong>: idiom-dictionary</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

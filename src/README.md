@@ -47,9 +47,9 @@ actions:
     icon: list-check
     link: ./features
 
-  - text: 使用指南
+  - text: 部署配置
     icon: book
-    link: ./使用指南/
+    link: ./部署配置/
 ---
 
 ::: warning 🚧 文档正在建设中

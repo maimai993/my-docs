@@ -1,6 +1,6 @@
 <template><div><h1 id="功能列表" tabindex="-1"><a class="header-anchor" href="#功能列表"><span>功能列表</span></a></h1>
 <p>麦芽糖bot提供丰富的功能，满足您的各种需求。</p>
-<h2 id="🛠️-实用工具" tabindex="-1"><a class="header-anchor" href="#🛠️-实用工具"><span>🛠️ 实用工具</span></a></h2>
+<h2 id="🛠️-实用工具" tabindex="-1"><a class="header-anchor" href="#🛠️-实用工具"><span>🛠️ <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/">实用工具</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E5%B8%AE%E5%8A%A9.html">获取帮助</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E7%BF%BB%E8%AF%91.html">翻译</RouteLink></strong></li>
@@ -32,7 +32,7 @@
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E7%81%AB%E7%83%A7%E4%BA%91%E9%A2%84%E6%8A%A5.html">火烧云预报</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E8%82%A1%E7%A5%A8.html">股票</RouteLink></strong></li>
 </ul>
-<h2 id="🎨-图像处理" tabindex="-1"><a class="header-anchor" href="#🎨-图像处理"><span>🎨 图像处理</span></a></h2>
+<h2 id="🎨-图像处理" tabindex="-1"><a class="header-anchor" href="#🎨-图像处理"><span>🎨 <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/">图像处理</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/GIF%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86.html">GIF 图片处理</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E8%A1%A8%E6%83%85%E5%8C%85%E7%94%9F%E6%88%90.html">表情包生成</RouteLink></strong></li>
@@ -51,7 +51,7 @@
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E4%BA%8C%E7%BB%B4%E7%A0%81.html">二维码</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/Markdown%E6%96%87%E6%9C%AC%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%9B%BE%E7%89%87.html">Markdown 文本转换为图片</RouteLink></strong></li>
 </ul>
-<h2 id="🤖-ai功能" tabindex="-1"><a class="header-anchor" href="#🤖-ai功能"><span>🤖 AI功能</span></a></h2>
+<h2 id="🤖-ai功能" tabindex="-1"><a class="header-anchor" href="#🤖-ai功能"><span>🤖 <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/">AI功能</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/fish-audio.html">fish-audio</RouteLink></strong> <code v-pre>AI语音生成</code></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/AI%E5%8F%8D%E6%8E%A8tag.html">AI 反推tag</RouteLink></strong></li>
@@ -60,7 +60,7 @@
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/sora%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90.html">sora视频生成</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/mc%E9%97%AE%E7%AD%94.html">mc问答</RouteLink></strong></li>
 </ul>
-<h2 id="🎯-游戏相关" tabindex="-1"><a class="header-anchor" href="#🎯-游戏相关"><span>🎯 游戏相关</span></a></h2>
+<h2 id="🎯-游戏相关" tabindex="-1"><a class="header-anchor" href="#🎯-游戏相关"><span>🎯 <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/">游戏相关</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/%E5%8E%9F%E7%A5%9E.html">原神</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/%E5%B4%A9%E5%9D%8F%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93.html">崩坏星穹铁道</RouteLink></strong></li>
@@ -74,7 +74,7 @@
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6.html">无畏契约</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80.html">王者荣耀</RouteLink></strong></li>
 </ul>
-<h2 id="🎉-娱乐功能" tabindex="-1"><a class="header-anchor" href="#🎉-娱乐功能"><span>🎉 娱乐功能</span></a></h2>
+<h2 id="🎉-娱乐功能" tabindex="-1"><a class="header-anchor" href="#🎉-娱乐功能"><span>🎉 <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/">娱乐功能</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/VV%E8%AF%84%E4%BB%B7.html">VV评价</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E6%BC%82%E6%B5%81%E7%93%B6.html">漂流瓶</RouteLink></strong></li>
@@ -129,14 +129,10 @@
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E4%BF%9D%E5%AD%98QQ%E8%A1%A8%E6%83%85.html">保存QQ表情</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90.html">视频解析</RouteLink></strong></li>
 </ul>
-<h2 id="⚙️-群组管理" tabindex="-1"><a class="header-anchor" href="#⚙️-群组管理"><span>⚙️ 群组管理</span></a></h2>
+<h2 id="⚙️-群组管理" tabindex="-1"><a class="header-anchor" href="#⚙️-群组管理"><span>⚙️ <RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/">群组管理</RouteLink></span></a></h2>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E7%BE%A4%E7%BB%84%E7%AE%A1%E7%90%86/%E8%B8%A2%E4%BA%BA.html">踢人</RouteLink></strong></li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E7%BE%A4%E7%BB%84%E7%AE%A1%E7%90%86/%E7%A6%81%E8%A8%80.html">禁言</RouteLink></strong></li>
-</ul>
-<h2 id="💝-赞助支持" tabindex="-1"><a class="header-anchor" href="#💝-赞助支持"><span>💝 赞助支持</span></a></h2>
-<ul>
-<li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E8%B5%9E%E5%8A%A9%E6%94%AF%E6%8C%81/%E8%B5%9E%E5%8A%A9%E6%88%91%E4%BB%AC.html">赞助我们</RouteLink></strong></li>
 </ul>
 <p>如果您有功能建议，欢迎在<a href="https://qm.qq.com/q/jeNQoqIFrO" target="_blank" rel="noopener noreferrer">官方群</a>内提出！</p>
 </div></template>

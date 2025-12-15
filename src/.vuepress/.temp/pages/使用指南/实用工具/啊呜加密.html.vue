@@ -1,4 +1,5 @@
 <template><div><h1 id="啊呜加密" tabindex="-1"><a class="header-anchor" href="#啊呜加密"><span>啊呜加密</span></a></h1>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-furry-encode-decode" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-furry-encode-decode" alt="" loading="lazy"></a> <a href="https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/furry-encode-decode" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
 <p><strong>指令名称</strong>: <code v-pre>furry-encode</code> <code v-pre>furry-decode</code></p>
 <p><strong>功能描述</strong>: 兽音加密/解密文本，基于兽音译者的JS实现</p>
@@ -46,7 +47,7 @@
 <h3 id="文本解密" tabindex="-1"><a class="header-anchor" href="#文本解密"><span>文本解密</span></a></h3>
 <h4 id="解密兽音文本" tabindex="-1"><a class="header-anchor" href="#解密兽音文本"><span>解密兽音文本</span></a></h4>
 <chat-panel>
-<chat-message nickname="用户" type="user">furry-decode 呜嗷呜嗷嗷嗷啊嗷嗷\~啊呜\~啊\~呜呜嗷\~嗷呜\~啊\~嗷呜嗷\~嗷啊嗷啊啊\~啊</chat-message>
+<chat-message nickname="用户" type="user">furry-decode 呜嗷呜嗷嗷嗷啊嗷嗷~啊呜~啊~呜呜嗷~嗷呜~啊~嗷呜嗷~嗷啊嗷啊啊~啊</chat-message>
 <chat-message nickname="bot" type="bot">
 解密成功！
 <p>你好世界</p>

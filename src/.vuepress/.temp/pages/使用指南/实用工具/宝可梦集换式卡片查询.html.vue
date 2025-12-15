@@ -1,4 +1,5 @@
 <template><div><h1 id="宝可梦集换式卡片查询" tabindex="-1"><a class="header-anchor" href="#宝可梦集换式卡片查询"><span>宝可梦集换式卡片查询</span></a></h1>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-ptcg-research" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-ptcg-research" alt="" loading="lazy"></a> <a href="https://github.com/AsakuraHitomi/ptcg-research" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
 <p><strong>指令名称</strong>: ptcg</p>
 <p><strong>功能描述</strong>: 查询宝可梦集换式卡片游戏(PTCG)的卡片信息，包括宝可梦卡、训练师卡和能量卡</p>

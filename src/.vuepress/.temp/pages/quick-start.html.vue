@@ -13,18 +13,12 @@
 <p>加入我们的官方QQ群：<strong><a href="https://qm.qq.com/q/jeNQoqIFrO" target="_blank" rel="noopener noreferrer">1030501081</a></strong>，在群内可以直接与机器人互动。</p>
 <h3 id="_3-开始使用" tabindex="-1"><a class="header-anchor" href="#_3-开始使用"><span>3. 开始使用</span></a></h3>
 <p>在群聊中@机器人或发送特定命令即可使用各种功能。</p>
-<h2 id="基本命令" tabindex="-1"><a class="header-anchor" href="#基本命令"><span>基本命令</span></a></h2>
+<h2 id="命令" tabindex="-1"><a class="header-anchor" href="#命令"><span>命令</span></a></h2>
 <ul>
 <li><code v-pre>@麦芽糖bot 帮助</code> - 查看帮助信息</li>
 <li><code v-pre>@麦芽糖bot 天气 北京</code> - 查询天气</li>
-<li><code v-pre>@麦芽糖bot 翻译 hello</code> - 翻译文本</li>
-</ul>
-<h2 id="功能特点" tabindex="-1"><a class="header-anchor" href="#功能特点"><span>功能特点</span></a></h2>
-<ul>
-<li><strong>智能聊天</strong>: 支持自然语言对话</li>
-<li><strong>实用工具</strong>: 天气、翻译、计算等</li>
-<li><strong>娱乐功能</strong>: 抽签、游戏、笑话等</li>
-<li><strong>群管助手</strong>: 欢迎新人、管理群聊等</li>
+<li><code v-pre>@麦芽糖bot 翻译 hello</code> - 翻译文本<br>
+具体请看<RouteLink to="/features.html">功能列表</RouteLink></li>
 </ul>
 <h2 id="获取帮助" tabindex="-1"><a class="header-anchor" href="#获取帮助"><span>获取帮助</span></a></h2>
 <p>如果在使用过程中遇到问题，可以：</p>
@@ -34,6 +28,8 @@
 <li>联系<a href="https://qm.qq.com/q/xudP8MS6zu" target="_blank" rel="noopener noreferrer">管理员</a>获取技术支持</li>
 </ol>
 <p>开始享受麦芽糖bot带来的便利吧！</p>
+<h2 id="想要自己部署" tabindex="-1"><a class="header-anchor" href="#想要自己部署"><span>想要自己部署？</span></a></h2>
+<p>请看<RouteLink to="/%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE/">部署配置</RouteLink></p>
 </div></template>
 
 
