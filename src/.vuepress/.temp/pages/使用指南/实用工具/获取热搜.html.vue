@@ -1,6 +1,7 @@
 <template><div><h1 id="获取热搜" tabindex="-1"><a class="header-anchor" href="#获取热搜"><span>获取热搜</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: hotof.[平台]</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-hot-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-hot-search" alt="" loading="lazy"></a> <a href="https://github.com/lisk809/koishi-plugin-hot-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: hotof.[平台]</p>
 <p><strong>功能描述</strong>: 获取各平台热搜，支持自定义显示数量</p>
 <p><strong>插件名称</strong>: hot-search</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

@@ -2,8 +2,9 @@
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
 <p><strong>指令名称</strong>: hsy</p>
 <p><strong>功能描述</strong>: 查询和订阅城市朝霞(日出)和晚霞(日落)预报</p>
-<p><strong>插件名称</strong>: hsy</p>
-<h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<p><strong>插件名称</strong>: sunsetbot</p>
+<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
+<Mermaid code="eJx1ks1OwkAQx+88xcQ7Gl7ApHgsaVMCp8ZDgSo12hLaqkeJSoiGgMDBKGn4UlAT4IQGjL6Labf1LWy75aMU59Duzv+3/5nO9uBYOktnubwCsXgI7EiyZmOASu/77s59yGrqMM/lshATRPXcTfnSBLAMYww79inzbYQPzoNhbG2Z4sVMKGhASRn+SAbWeW/bi7gqKsIJ73da0FEb5HJpTkHNsnHT9lNOUJ7uV3ylfYZ7wJKSIGcF1C4ibRI0JD09qBA0y2W4nMLnw5LIp6S1mk7QCVZWRZlXAqrT0fp60WUSwuFde3zuhmHsHWz93LUATUqoMNrRp7f6bLLlQpTLUB7SBlrko5ICp5GIUa5YwyGmyOWFkh7aAQxY/S7SqhgjaBchaI/pAi6lf7Z+L2qrVnOXHljjS+enqdQWLdEJF6ETHvME1nfDeNTMWR1pzU0uz6B/PNjXafSuzGpxcy99MOplY9owxgWre73JZfDPx+MR+eb04pnhgWJsfdyvgO6/zN50te1k6A/FHgmG"></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="基本语法" tabindex="-1"><a class="header-anchor" href="#基本语法"><span>基本语法</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hsy.query [城市名]  # 查询指定城市的火烧云预报，不指定城市则使用默认城市</span></span>
 <span class="line"><span>hsy.sub &#x3C;城市名>   # 订阅指定城市的自动预报</span></span>
@@ -94,12 +95,6 @@
 <td>string</td>
 <td>重庆</td>
 <td>默认查询城市</td>
-</tr>
-<tr>
-<td>maxSubscriptions</td>
-<td>number</td>
-<td>5</td>
-<td>每个用户每个频道最大订阅数</td>
 </tr>
 </tbody>
 </table>
