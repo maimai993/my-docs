@@ -1,6 +1,7 @@
 <template><div><h1 id="网页截图" tabindex="-1"><a class="header-anchor" href="#网页截图"><span>网页截图</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: shot</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-screenshot" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-screenshot" alt="" loading="lazy"></a>  <a href="https://github.com/koishijs/koishi-plugin-puppeteer" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: shot</p>
 <p><strong>功能描述</strong>: 截取网页内容并返回图片</p>
 <p><strong>插件名称</strong>: screenshot</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

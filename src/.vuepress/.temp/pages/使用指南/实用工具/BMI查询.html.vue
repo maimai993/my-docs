@@ -1,6 +1,7 @@
 <template><div><h1 id="bmi查询" tabindex="-1"><a class="header-anchor" href="#bmi查询"><span>BMI查询</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: bmi-calculator</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-bmi-calculator" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-bmi-calculator" alt="" loading="lazy"></a> <a href="https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/bmi-calculator" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: bmi-calculator</p>
 <p><strong>功能描述</strong>: 根据身高和体重计算BMI指数，评估体重对健康的影响，并提供相应的健康建议</p>
 <p><strong>插件名称</strong>: bmi-calculator</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

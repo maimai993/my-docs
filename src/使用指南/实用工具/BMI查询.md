@@ -7,7 +7,7 @@ order: 1
 # BMI查询
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-bmi-calculator)](https://www.npmjs.com/package/koishi-plugin-bmi-calculator) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/bmi-calculator)
 **指令名称**: bmi-calculator
 
 **功能描述**: 根据身高和体重计算BMI指数，评估体重对健康的影响，并提供相应的健康建议

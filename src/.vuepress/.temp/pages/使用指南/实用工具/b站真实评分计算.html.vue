@@ -1,6 +1,7 @@
 <template><div><h1 id="b站真实评分计算" tabindex="-1"><a class="header-anchor" href="#b站真实评分计算"><span>B站真实评分计算</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: bili.rating</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-bilibili-real-rating" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-bilibili-real-rating" alt="npm" loading="lazy"></a><br>
+<strong>指令名称</strong>: bili.rating</p>
 <p><strong>功能描述</strong>: 获取B站番剧评论并计算真实评分</p>
 <p><strong>插件名称</strong>: bilibili-real-rating</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

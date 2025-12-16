@@ -12,7 +12,10 @@
 ### 接入框架
 #### 接入koishi
 1. 在koishi插件市场搜索`koishi-plugin-adapter-onebot`并安装
-<div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 50%; left: 0; top: 0;" src="https://cdn.tangbot.xyz/koishi/%E5%AE%89%E8%A3%85onebot.html" frameborder="1" scrolling="yes" width="320" height="240"</iframe>
-</div>
+<iframe src="https://cdn.tangbot.xyz/koishi/%E5%AE%89%E8%A3%85onebot.html" frameborder="1" scrolling="yes" width="500" height="215"</iframe>
 
+#### 配置`onebot`
+1. 在koshi插件配置中找到`onebot`
+<iframe src="https://cdn.tangbot.xyz/koishi/%E9%85%8D%E7%BD%AEonebot.html" frameborder="1" scrolling="yes" width="600" height="515"</iframe>
+
+2. 填写高亮的 `self_id` 和 `access_token` `endpoint`

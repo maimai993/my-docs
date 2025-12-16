@@ -48,7 +48,7 @@ actions:
     link: ./features
 
   - text: 部署配置
-    icon: book
+    icon: gear
     link: ./部署配置/
 ---
 

@@ -17,9 +17,15 @@
 <ol>
 <li>在koishi插件市场搜索<code v-pre>koishi-plugin-adapter-onebot</code>并安装</li>
 </ol>
-<div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 50%; left: 0; top: 0;" src="https://cdn.tangbot.xyz/koishi/%E5%AE%89%E8%A3%85onebot.html" frameborder="1" scrolling="yes" width="320" height="240"</iframe>
-</div>
+<iframe src="https://cdn.tangbot.xyz/koishi/%E5%AE%89%E8%A3%85onebot.html" frameborder="1" scrolling="yes" width="500" height="215"</iframe>
+<h4 id="配置onebot" tabindex="-1"><a class="header-anchor" href="#配置onebot"><span>配置<code v-pre>onebot</code></span></a></h4>
+<ol>
+<li>在koshi插件配置中找到<code v-pre>onebot</code></li>
+</ol>
+<iframe src="https://cdn.tangbot.xyz/koishi/%E9%85%8D%E7%BD%AEonebot.html" frameborder="1" scrolling="yes" width="600" height="515"</iframe>
+<ol start="2">
+<li>填写高亮的 <code v-pre>self_id</code> 和 <code v-pre>access_token</code> <code v-pre>endpoint</code></li>
+</ol>
 </div></template>
 
 

@@ -7,7 +7,7 @@ order: 1
 # B站真实评分计算
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![npm](https://img.shields.io/npm/v/koishi-plugin-bilibili-real-rating)](https://www.npmjs.com/package/koishi-plugin-bilibili-real-rating)
 **指令名称**: bili.rating
 
 **功能描述**: 获取B站番剧评论并计算真实评分

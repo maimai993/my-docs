@@ -1,6 +1,7 @@
 <template><div><h1 id="b站搜索" tabindex="-1"><a class="header-anchor" href="#b站搜索"><span>b站搜索</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: b站搜索</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-bilisearch" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-bilisearch" alt="npm" loading="lazy"></a> <a href="https://github.com/axlmly/koishi-plugin-bilisearch" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: b站搜索</p>
 <p><strong>功能描述</strong>: 在Bilibili平台进行多类型内容搜索，支持视频、用户、专栏等多种搜索类型</p>
 <p><strong>插件名称</strong>: bilisearch</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

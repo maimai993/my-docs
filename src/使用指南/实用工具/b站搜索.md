@@ -7,7 +7,7 @@ order: 1
 # b站搜索
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![npm](https://img.shields.io/npm/v/koishi-plugin-bilisearch)](https://www.npmjs.com/package/koishi-plugin-bilisearch) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/axlmly/koishi-plugin-bilisearch)
 **指令名称**: b站搜索
 
 **功能描述**: 在Bilibili平台进行多类型内容搜索，支持视频、用户、专栏等多种搜索类型

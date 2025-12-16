@@ -7,7 +7,7 @@ order: 1
 # bing搜索
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![npm](https://img.shields.io/npm/v/koishi-plugin-bing)](https://www.npmjs.com/package/koishi-plugin-bing)
 **指令名称**: bing
 
 **功能描述**: 使用Bing搜索引擎进行网页搜索，返回前10个搜索结果

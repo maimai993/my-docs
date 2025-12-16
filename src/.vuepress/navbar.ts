@@ -46,10 +46,16 @@ export default navbar([
         icon: "users",
         link: "/使用指南/群组管理/",
       },
+    ],
+  },
+  {
+    text: "部署配置",
+    icon: "gear",
+    children: [
       {
-        text: "赞助支持",
-        icon: "heart",
-        link: "/使用指南/赞助支持/",
+        text: "准备工作",
+        icon: "server",
+        link: "/部署配置/",
       },
     ],
   },
