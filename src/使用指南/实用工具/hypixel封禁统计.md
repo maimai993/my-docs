@@ -7,7 +7,7 @@ order: 1
 # Hypixel封禁统计
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-hypixel-ban-tracker)](https://www.npmjs.com/package/koishi-plugin-hypixel-ban-tracker)
 **指令名称**: hypixel
 
 **别名**: hpbans

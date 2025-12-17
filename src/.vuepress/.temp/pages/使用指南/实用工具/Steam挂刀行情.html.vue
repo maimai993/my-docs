@@ -1,6 +1,7 @@
 <template><div><h1 id="steam挂刀行情" tabindex="-1"><a class="header-anchor" href="#steam挂刀行情"><span>Steam挂刀行情</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: trad</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-steam-trading" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-steam-trading" alt="" loading="lazy"></a> <a href="https://github.com/initialencounter/mykoishi" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: trad</p>
 <p><strong>功能描述</strong>: 查询Steam挂刀行情，获取不同交易平台的最优交易比例和价格信息</p>
 <p><strong>插件名称</strong>: steam-trading</p>
 <p><strong>数据来源</strong>: <a href="https://www.iflow.work" target="_blank" rel="noopener noreferrer">iflow.work</a></p>

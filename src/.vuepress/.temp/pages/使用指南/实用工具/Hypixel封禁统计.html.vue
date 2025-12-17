@@ -1,6 +1,7 @@
 <template><div><h1 id="hypixel封禁统计" tabindex="-1"><a class="header-anchor" href="#hypixel封禁统计"><span>Hypixel封禁统计</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: hypixel</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-hypixel-ban-tracker" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-hypixel-ban-tracker" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: hypixel</p>
 <p><strong>别名</strong>: hpbans</p>
 <p><strong>功能描述</strong>: 查询Hypixel服务器的封禁统计数据，包括Watchdog反作弊系统和客服封禁的统计信息</p>
 <p><strong>插件名称</strong>: hypixel-ban-tracker</p>

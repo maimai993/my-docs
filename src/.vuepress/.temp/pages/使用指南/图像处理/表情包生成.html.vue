@@ -1,6 +1,7 @@
 <template><div><h1 id="表情包生成" tabindex="-1"><a class="header-anchor" href="#表情包生成"><span>表情包生成</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: meme</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-memes-api" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-memes-api" alt="" loading="lazy"></a> <a href="https://github.com/lgc-KoiDev/koishi-plugin-memes-api" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: meme</p>
 <p><strong>功能描述</strong>: 提供多种模板的表情包生成功能，支持自定义文字和图片</p>
 <p><strong>插件名称</strong>: memes-api</p>
 <h2 id="主要功能指令" tabindex="-1"><a class="header-anchor" href="#主要功能指令"><span>主要功能指令</span></a></h2>

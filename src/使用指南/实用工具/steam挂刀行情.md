@@ -7,7 +7,7 @@ order: 1
 # Steam挂刀行情
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-steam-trading)](https://www.npmjs.com/package/koishi-plugin-steam-trading) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/initialencounter/mykoishi)
 **指令名称**: trad
 
 **功能描述**: 查询Steam挂刀行情，获取不同交易平台的最优交易比例和价格信息

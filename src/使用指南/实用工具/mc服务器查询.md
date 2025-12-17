@@ -7,7 +7,7 @@ order: 2
 # MC服务器查询
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-mcmotd-customserver-canvas)](https://www.npmjs.com/package/koishi-plugin-mcmotd-customserver-canvas)
 **指令名称**: MBS/MJS
 
 **功能描述**: 查询Minecraft Java版和基岩版服务器信息
