@@ -7,7 +7,7 @@ order: 1
 # GIF图片处理
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-gif-reverse)](https://www.npmjs.com/package/koishi-plugin-gif-reverse) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/gif-reverse)
 **指令名称**: gif-reverse
 
 **功能描述**: 提供多种GIF图片处理功能，包括倒放、回弹、滑动、旋转、转向等效果

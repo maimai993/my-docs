@@ -7,7 +7,7 @@ order: 1
 # VV表情包搜索
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-vv-bot)](https://www.npmjs.com/package/koishi-plugin-vv-bot) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/738NGX/vv-bot)
 **指令名称**: vv
 
 **功能描述**: 搜索并返回VV表情包图片

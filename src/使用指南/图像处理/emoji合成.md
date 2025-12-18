@@ -7,7 +7,7 @@ order: 1
 # Emoji合成
 
 ## 概述
-
+[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-emojimixer)](https://www.npmjs.com/package/koishi-plugin-emojimixer)
 **指令名称**: emix
 
 **功能描述**: 混合两个emoji表情，生成合成图片

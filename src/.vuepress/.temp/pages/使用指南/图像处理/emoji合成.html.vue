@@ -1,6 +1,7 @@
 <template><div><h1 id="emoji合成" tabindex="-1"><a class="header-anchor" href="#emoji合成"><span>Emoji合成</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: emix</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-emojimixer" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-emojimixer" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: emix</p>
 <p><strong>功能描述</strong>: 混合两个emoji表情，生成合成图片</p>
 <p><strong>插件名称</strong>: emojimixer</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>

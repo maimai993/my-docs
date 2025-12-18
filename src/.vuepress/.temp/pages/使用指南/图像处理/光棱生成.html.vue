@@ -1,6 +1,7 @@
 <template><div><h1 id="光棱生成" tabindex="-1"><a class="header-anchor" href="#光棱生成"><span>光棱生成</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><strong>指令名称</strong>: 光棱 / 光棱取图</p>
+<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-patina" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-patina" alt="" loading="lazy"></a> <a href="https://github.com/koishi-shangxue-plugins/koishi-shangxue-apps/tree/main/plugins/patina" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: 光棱 / 光棱取图</p>
 <p><strong>功能描述</strong>: 制作光棱坦克图片（高级图片隐写技术）和从光棱坦克图片中取出隐藏的里图</p>
 <p><strong>插件名称</strong>: patina</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
