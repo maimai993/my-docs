@@ -1,0 +1,5 @@
+name: astrbot_plugin_video_sora2 # 这是你的插件的唯一识别名。
+desc: astrbot_plugin_video_sora的fork版本支持自动获取ChatGPT AccessToken # 插件简短描述
+version: v1.2.8 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: maimai # 作者
+repo: https://github.com/maimai993/astrbot_plugin_video_sora2 # 插件的仓库地址

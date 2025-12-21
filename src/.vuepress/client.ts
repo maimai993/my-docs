@@ -5,6 +5,7 @@ import MergeForward from './components/MergeForward.vue'
 import RecallMessage from './components/RecallMessage.vue'
 import SimpleImageMessage from './components/SimpleImageMessage.vue'
 import FileMessage from './components/FileMessage.vue'
+import VoiceMessage from './components/VoiceMessage.vue'
 
 
 export default defineClientConfig({
@@ -16,6 +17,7 @@ export default defineClientConfig({
     app.component('RecallMessage', RecallMessage)
     app.component('SimpleImageMessage', SimpleImageMessage)
     app.component('FileMessage', FileMessage)
+    app.component('VoiceMessage', VoiceMessage)
 
     
     // 您可以在这里注册更多自定义组件

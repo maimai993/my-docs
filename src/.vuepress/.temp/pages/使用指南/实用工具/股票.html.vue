@@ -1,6 +1,6 @@
 <template><div><h1 id="股票" tabindex="-1"><a class="header-anchor" href="#股票"><span>股票</span></a></h1>
 <h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://github.com/Genshin-bots/gsuid_core" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-GsCore-af9183?style=flat" alt="" loading="lazy"></a> <a href="https://github.com/KimigaiiWuyi/SayuStock" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
+<p><a href="https://github.com/Genshin-bots/gsuid_core" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-GsCore-af9183?style=flat" alt="" loading="lazy"></a> <a href="https://www.python.org" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="" loading="lazy"></a> <a href="https://github.com/KimigaiiWuyi/SayuStock" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
 <p><strong>功能描述</strong>: 基于GsCore的全功能股票/A股机器人插件，支持大盘云图、个股查询、自选管理、新闻订阅等功能</p>
 <p><strong>插件名称</strong>: SayuStock</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
