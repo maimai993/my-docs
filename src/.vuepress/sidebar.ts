@@ -70,5 +70,10 @@ export default sidebar({
         },
       ],
     },
+    {
+      text: "部署配置",
+      icon: "gear",
+      link: "features",
+    },
   ],
 });

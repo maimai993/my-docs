@@ -1,3 +1,0 @@
-curl_cffi
-Pillow
-aiohttp
